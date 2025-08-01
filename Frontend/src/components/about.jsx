@@ -31,7 +31,7 @@ export default function About() {
           </p>
         </div>
         <div className="relative">
-          <img src={image1} alt="" className="rounded-lg shadow-lg w-full" />
+          <img src={image1} alt="" className="rounded-lg shadow-lg w-[80%] h-[50%] flex items-left" />
         </div>
       </div>
 
