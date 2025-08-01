@@ -26,7 +26,7 @@ let subtotal = itemm.reduce((total, item) => {
      let total = Math.floor (subtotal+deliveryFee+taxes)
     return(
         <div >
-        <div className={` w-full md:w-[40vw] h-[100%] fixed top-0 right-0 bg-white shadow-xl p-6 transition-all duration-500 flex flex-col items-center overflow-auto ${showCart?"translate-x-0":"translate-x-full"} `}>
+        <div className={` w-full md:w-[40vw] h-[100%] fixed top-0 right-0 bg-white shadow-xl p-6 transition-all duration-500 flex flex-col items-center overflow-auto z-50  ${showCart?"translate-x-0":"translate-x-full"} `}>
             <header className="w-[100%] flex justify-between items-center text-[18px] font-semibold"> <span className="text-amber-500 ">
 Order Item</span>  <RxCross2 className="w-[30px] h-[30px] text-amber-500 text-[18px] font-semibold" onClick={()=>setShowCart(false)}/>       </header>
 {itemm.length>0 ?

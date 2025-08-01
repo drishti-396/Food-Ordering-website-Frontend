@@ -39,7 +39,7 @@ function Card2({ name, id, price, image ,qty})
         </div>
       </div>
       <div className="flex flex-col justify-start items-end gap-6">
-       // <span className="text-xl text-amber-700"> Rs.{price}/-</span>
+        <span className="text-xl text-amber-700"> Rs.{price}/-</span>
         <MdDeleteOutline
           className="w-[30px] h-[40px] text-red-600 cursor-pointer"
           onClick={handleDelete}
